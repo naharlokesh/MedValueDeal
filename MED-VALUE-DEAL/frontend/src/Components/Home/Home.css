@@ -1,0 +1,318 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h3, h2, h4, p {
+  margin: 0;
+  padding: 0;
+}
+
+#looking {
+  margin-top: 2rem;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.looking-h3{
+  height: 5rem;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-left:2.5rem;
+  margin-right: 2.5rem;
+  border-radius: 1rem;
+  background: linear-gradient(to right,#bcf0ed,#ebe7e7,rgb(241, 190, 241));
+}
+
+.looking-h3 h3 {
+  font-size: 24px;
+  color: #333;
+}
+
+.looking-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  
+}
+
+.looking-img img:hover{
+  box-shadow: 5px 5px 20px #bcf0ed;
+}
+
+.looking-img div {
+  flex: 1 1 30%;
+  max-width: 100px;
+}
+
+.looking-img img {
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Offer section */
+
+#offer{
+  display:flex;
+  justify-content: space-around;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+#offer img {
+  width:500px;
+  border-radius: 1.5rem;
+}
+
+.offerH, .offerH2 {
+  margin: 20px 0;
+}
+
+.offerH h1, .offerH2 h1{
+  font-size: 24px;
+  margin-left: 6rem;
+  margin-top: 5rem;
+}
+
+#offer2, #offer3 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+#offer2 img, #offer3 img {
+  width: 350px;
+  border-radius: 8px;
+}
+
+/* Shop By Categories */
+
+#cat h2,.con-1 h1{
+  display: flex;
+  font-size: 24px;
+  margin-top: 3rem;
+  margin-left: 6rem;
+  font-family: 'Courier New', Courier, monospace;
+  
+}
+/* Slider section */
+/* .top {
+  padding: 20px 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+} */
+/* 
+.slide-container {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+
+.slide-img {
+  min-width: 100%;
+}
+
+.slide-img img {
+  width: 100%;
+  border-radius: 8px;
+} */
+
+/* Categories section */
+#cat h2 {
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* .slider {
+  background: linear-gradient(to right,#bcf0ed,#ebe7e7,rgb(241, 190, 241));
+  width:800px;
+  position: relative;
+}
+
+.wrapper {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+}
+
+.carousel {
+  background: linear-gradient(to right,#bcf0ed,#ebe7e7,rgb(241, 190, 241));
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel img {
+  width: 150px;
+  margin: 0 10px;
+} */
+
+/* #left, #right {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 24px;
+}
+
+#left {
+  left: 0;
+}
+
+#right {
+  right: 0;
+} */
+
+.con-1 p{
+font-size: 14px;
+display: flex;
+margin-left: 6rem;
+color: #808080;
+}
+
+/* Banner section */
+#banner img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+/* Concern section */
+#concern {
+  margin-top: 5rem;
+  padding: 20px 0;
+}
+
+.con-1 {
+  text-align: center;
+}
+
+.con-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.con-2 div {
+  text-align: center;
+  max-width: 150px;
+}
+
+.con-2 img {
+  width: 90px;
+  border-radius: 8px;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.con-2 img:hover{
+  box-shadow: 5px 5px 20px #a8f1ee;
+}
+
+
+/* Health articles section */
+#health {
+  margin-top: 7rem;
+  padding: 20px 0;
+}
+
+.health-1 {
+  /* text-align: center; */
+  margin-left: 6rem;
+}
+
+.health-1 h2{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 24px;
+}
+
+.health-2 {
+  margin-top: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.health-2 div {
+  max-width: 250px;
+}
+
+.health-2 img {
+  width: 250px;
+  height: 250px;
+  border-radius: 8px;
+  object-fit:cover;
+  margin-bottom: 1rem;
+}
+
+.health-2 img:hover{
+  box-shadow: 5px 5px 20px #333;
+}
+
+.health-2 a{
+  text-decoration: none;
+  color: #808080;
+}
+
+.banner-2 img,.banner-3 img,.banner-4 img{
+  margin-top: 7rem;
+  margin-left: 6rem;
+  
+  width:1200px;
+}
+
+/* Customer Review */
+
+.customer-comments{
+  margin-top: 9rem;
+}
+
+.comments{
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.person{
+  width:300px;
+  height:400px;
+}
+.person h5,.person p{
+  font-size: 14px;
+}
+
+.person p{
+  color: #808080;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.comt{
+  background-color: #eefcfa;
+  padding: 1rem;
+  border: 1px solid #a8f1ee;
+  border-radius: 1rem;
+  color: #808080;
+  height: 350px;
+}
+
+.comt p span{
+  color: #55e7e0;
+  font-size: 24px;
+}
